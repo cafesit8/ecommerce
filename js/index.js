@@ -50,7 +50,6 @@ const removeClass=()=>{
 window.addEventListener('load', ()=>{
     filtrarData(categoriaId)
     llenarCarrito(carrito)
-    // totalPagar(carrito)
 })
 
 const filtrarData=(id)=>{

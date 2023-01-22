@@ -304,7 +304,7 @@ nav .menu{
     background-color: var(--bg);
     text-align: center;
     border-radius: 5px;
-    width: 80%;
+    width: 100%;
     margin: auto;
     cursor: pointer;
     margin-top: 10px;

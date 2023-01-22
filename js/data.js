@@ -66,7 +66,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Manzana',
-        img: '../recursos/manzana.png',
+        img: '../recursos/frutas/manzana.png',
         precioAntes: 1.00,
         precioAhora: 0.80,
         stock: 12
@@ -74,7 +74,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Pera',
-        img: '../recursos/pera.png',
+        img: '../recursos/frutas/pera.png',
         precioAntes: 1.00,
         precioAhora: 0.70,
         stock: 7
@@ -82,7 +82,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Piña',
-        img: '../recursos/piña.png',
+        img: '../recursos/frutas/piña.png',
         precioAntes: 2.80,
         precioAhora: 2.00,
         stock: 5
@@ -90,7 +90,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Sandia',
-        img: '../recursos/sandia.png',
+        img: '../recursos/frutas/sandia.png',
         precioAntes: 4.00,
         precioAhora: 3.00,
         stock: 3
@@ -98,7 +98,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Plátano',
-        img: '../recursos/platano.png',
+        img: '../recursos/frutas/platano.png',
         precioAntes: 2.00,
         precioAhora: 0.90,
         stock: 7
@@ -106,7 +106,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Fresa',
-        img: '../recursos/fresa.png',
+        img: '../recursos/frutas/fresa.png',
         precioAntes: 0.80,
         precioAhora: 0.50,
         stock: 5
@@ -114,7 +114,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Naranja',
-        img: '../recursos/naranja.png',
+        img: '../recursos/frutas/naranja.png',
         precioAntes: 1.00,
         precioAhora: 0.85,
         stock: 10
@@ -122,7 +122,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Frambuesa',
-        img: '../recursos/frambuesa.png',
+        img: '../recursos/frutas/frambuesa.png',
         precioAntes: 0.70,
         precioAhora: 0.50,
         stock: 11
@@ -190,6 +190,262 @@ export const data = [
         precioAntes: 2.00,
         precioAhora: 1.60,
         stock: 6
+    },
+    {
+        tipo: 'cereal',
+        nombre: 'Anis',
+        img: '../recursos/cereales/anis.png',
+        precioAntes: 4.50,
+        precioAhora: 2.80,
+        stock: 4
+    },
+    {
+        tipo: 'cereal',
+        nombre: 'Arroz',
+        img: '../recursos/cereales/arroz.png',
+        precioAntes: 5.00,
+        precioAhora: 3.90,
+        stock: 6
+    },
+    {
+        tipo: 'cereal',
+        nombre: 'Avena',
+        img: '../recursos/cereales/avena.png',
+        precioAntes: 4.50,
+        precioAhora: 2.80,
+        stock: 5
+    },
+    {
+        tipo: 'cereal',
+        nombre: 'Cebada',
+        img: '../recursos/cereales/cebada.png',
+        precioAntes: 6.50,
+        precioAhora: 4.80,
+        stock: 7
+    },
+    {
+        tipo: 'cereal',
+        nombre: 'Centeno',
+        img: '../recursos/cereales/centeno.png',
+        precioAntes: 3.70,
+        precioAhora: 3.00,
+        stock: 10
+    },
+    {
+        tipo: 'cereal',
+        nombre: 'Maiz',
+        img: '../recursos/cereales/maiz.png',
+        precioAntes: 3.30,
+        precioAhora: 2.00,
+        stock: 10
+    },
+    {
+        tipo: 'cereal',
+        nombre: 'Mijo',
+        img: '../recursos/cereales/mijio.png',
+        precioAntes: 5.00,
+        precioAhora: 4.00,
+        stock: 9
+    },
+    {
+        tipo: 'cereal',
+        nombre: 'Trigo',
+        img: '../recursos/cereales/trigo.png',
+        precioAntes: 5.00,
+        precioAhora: 3.50,
+        stock: 10
+    },
+    {
+        tipo: 'carne',
+        nombre: 'Buey',
+        img: '../recursos/carnes/buey.png',
+        precioAntes: 35.00,
+        precioAhora: 30.50,
+        stock: 10
+    },
+    {
+        tipo: 'carne',
+        nombre: 'Cabrito',
+        img: '../recursos/carnes/cabra.png',
+        precioAntes: 25.00,
+        precioAhora: 23.90,
+        stock: 14
+    },
+    {
+        tipo: 'carne',
+        nombre: 'Conejo',
+        img: '../recursos/carnes/conejo.png',
+        precioAntes: 27.00,
+        precioAhora: 24.40,
+        stock: 12
+    },
+    {
+        tipo: 'carne',
+        nombre: 'Cordero',
+        img: '../recursos/carnes/cordero.png',
+        precioAntes: 30.00,
+        precioAhora: 27.90,
+        stock: 15
+    },
+    {
+        tipo: 'carne',
+        nombre: 'Pato',
+        img: '../recursos/carnes/pato.png',
+        precioAntes: 24.20,
+        precioAhora: 20.00,
+        stock: 10
+    },
+    {
+        tipo: 'carne',
+        nombre: 'Ternera',
+        img: '../recursos/carnes/ternera.png',
+        precioAntes: 31.50,
+        precioAhora: 28.50,
+        stock: 13
+    },
+    {
+        tipo: 'carne',
+        nombre: 'Vaca',
+        img: '../recursos/carnes/vaca.png',
+        precioAntes: 33.00,
+        precioAhora: 30.10,
+        stock: 7
+    },
+    {
+        tipo: 'carne',
+        nombre: 'Pollo',
+        img: '../recursos/carnes/pollo.png',
+        precioAntes: 15.00,
+        precioAhora: 10.50,
+        stock: 13
+    },
+    {
+        tipo: 'bebida',
+        nombre: 'Corona',
+        img: '../recursos/bebidas/cerveza.png',
+        precioAntes: 2.00,
+        precioAhora: 1.50,
+        stock: 13
+    },
+    {
+        tipo: 'bebida',
+        nombre: 'Coca Cola',
+        img: '../recursos/bebidas/coca-cola.png',
+        precioAntes: 6.00,
+        precioAhora: 5.00,
+        stock: 10
+    },
+    {
+        tipo: 'bebida',
+        nombre: 'Cristal',
+        img: '../recursos/bebidas/cristal.png',
+        precioAntes: 4.60,
+        precioAhora: 3.90,
+        stock: 12
+    },
+    {
+        tipo: 'bebida',
+        nombre: 'Frugos',
+        img: '../recursos/bebidas/frugos.png',
+        precioAntes: 3.50,
+        precioAhora: 3.00,
+        stock: 11
+    },
+    {
+        tipo: 'bebida',
+        nombre: 'Inka Cola',
+        img: '../recursos/bebidas/inka-cola.png',
+        precioAntes: 5.00,
+        precioAhora: 4.00,
+        stock: 12
+    },
+    {
+        tipo: 'bebida',
+        nombre: 'Powerade',
+        img: '../recursos/bebidas/powerade.png',
+        precioAntes: 6.00,
+        precioAhora: 4.90,
+        stock: 13
+    },
+    {
+        tipo: 'bebida',
+        nombre: 'Sporade',
+        img: '../recursos/bebidas/sporade.png',
+        precioAntes: 4.00,
+        precioAhora: 3.50,
+        stock: 8
+    },
+    {
+        tipo: 'bebida',
+        nombre: 'Jugo de Naranja',
+        img: '../recursos/bebidas/naranja.png',
+        precioAntes: 3.50,
+        precioAhora: 2.90,
+        stock: 9
+    },
+    {
+        tipo: 'aseo',
+        nombre: 'Afeitador Eléctrico',
+        img: '../recursos/aseo/afeitador-electrico.png',
+        precioAntes: 4.50,
+        precioAhora: 3.50,
+        stock: 10
+    },
+    {
+        tipo: 'aseo',
+        nombre: 'Cepillo Dental',
+        img: '../recursos/aseo/cepillo-dental.png',
+        precioAntes: 2.50,
+        precioAhora: 1.90,
+        stock: 8
+    },
+    {
+        tipo: 'aseo',
+        nombre: 'Hilo Dental',
+        img: '../recursos/aseo/hilo-dental.png',
+        precioAntes: 3.00,
+        precioAhora: 2.30,
+        stock: 11
+    },
+    {
+        tipo: 'aseo',
+        nombre: 'Jabón Líquido',
+        img: '../recursos/aseo/jabon-liquido.png',
+        precioAntes: 3.00,
+        precioAhora: 2.00,
+        stock: 7
+    },
+    {
+        tipo: 'aseo',
+        nombre: 'Mascarilla Facial',
+        img: '../recursos/aseo/mascarilla-facial.png',
+        precioAntes: 3.50,
+        precioAhora: 2.50,
+        stock: 5
+    },
+    {
+        tipo: 'aseo',
+        nombre: 'Pasta Dental',
+        img: '../recursos/aseo/pasta-dental.png',
+        precioAntes: 2.50,
+        precioAhora: 2.00,
+        stock: 15
+    },
+    {
+        tipo: 'aseo',
+        nombre: 'Shampoo',
+        img: '../recursos/aseo/shampoo.png',
+        precioAntes: 3.00,
+        precioAhora: 2.20,
+        stock: 9
+    },
+    {
+        tipo: 'aseo',
+        nombre: 'Desodorante',
+        img: '../recursos/aseo/desodorante.png',
+        precioAntes: 2.50,
+        precioAhora: 2.00,
+        stock: 7
     },
 ]
 
