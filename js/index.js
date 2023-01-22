@@ -1,4 +1,5 @@
-import {data, carrito} from './data.js'
+import {data} from './data.js'
+let carrito = []
 
 const categorias = document.querySelectorAll('.categoria')
 const contenedor = document.querySelector('.section3__productos')
@@ -50,6 +51,7 @@ const removeClass=()=>{
 window.addEventListener('load', ()=>{
     filtrarData(categoriaId)
     llenarCarrito(carrito)
+    cantidad.textContent = carrito.length
 })
 
 const filtrarData=(id)=>{
@@ -94,6 +96,7 @@ const agregarCarrito=(item)=>{
     }
     cantidad.textContent = carrito.length
     llenarCarrito(carrito)
+    localStorage.setItem('carritoArray', JSON.stringify(carrito))
 }
 
 closeModal.addEventListener('click', ()=>{
@@ -151,6 +154,7 @@ const eliminarProducto=(btn, array, id)=>{
         array.splice(id, 1)
         llenarCarrito(array)
         cantidad.textContent = array.length
+        localStorage.setItem('carritoArray', JSON.stringify(array))
     })
 }
 
@@ -162,6 +166,7 @@ const actualizarCantidad=(btnMenos, btnMas, nombre, htmlCantidad)=>{
                     item.cantidad--
                     htmlCantidad.textContent = item.cantidad
                     totalPagar(carrito)
+                    localStorage.setItem('carritoArray', JSON.stringify(carrito))
                 }else{
                     return
                 }
@@ -176,6 +181,7 @@ const actualizarCantidad=(btnMenos, btnMas, nombre, htmlCantidad)=>{
                     item.cantidad++
                     htmlCantidad.textContent = item.cantidad
                     totalPagar(carrito)
+                    localStorage.setItem('carritoArray', JSON.stringify(carrito))
                 }else{
                     return
                 }
@@ -192,6 +198,10 @@ const totalPagar=(array)=>{
 
     if (array.length >= 1) {
         divTotalPagar.style = 'display: block'
-        divTotalPagar.textContent = `Total a Pagar: ${totalPagar.toFixed(2)}`
+        divTotalPagar.textContent = `Total a Pagar: S/. ${totalPagar.toFixed(2)}`
     }
 }
+
+const arrayCarrito = JSON.parse(localStorage.getItem('carritoArray'))
+llenarCarrito(arrayCarrito)
+carrito = [...arrayCarrito]

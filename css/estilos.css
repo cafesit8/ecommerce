@@ -402,12 +402,13 @@ nav .menu{
 
 .modal-container .total-pagar{
     display: none;
-    position: absolute;
+    text-align: center;
     bottom: 15px;
     right: 40px;
     background-color: var(--verdeOscuro);
     padding: 5px 10px;
-    border-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .modal .container-productos{
@@ -417,7 +418,8 @@ nav .menu{
     max-height: 500px;
     overflow-y: scroll;
     padding: 50px 0;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .modal .container-productos::-webkit-scrollbar{

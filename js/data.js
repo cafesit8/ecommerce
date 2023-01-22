@@ -448,5 +448,3 @@ export const data = [
         stock: 7
     },
 ]
-
-export let carrito = []
