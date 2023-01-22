@@ -66,7 +66,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Manzana',
-        img: '../recursos/frutas/manzana.png',
+        img: '../recursos/manzana.png',
         precioAntes: 1.00,
         precioAhora: 0.80,
         stock: 12
@@ -74,7 +74,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Pera',
-        img: '../recursos/frutas/pera.png',
+        img: '../recursos/pera.png',
         precioAntes: 1.00,
         precioAhora: 0.70,
         stock: 7
@@ -82,7 +82,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Piña',
-        img: '../recursos/frutas/piña.png',
+        img: '../recursos/piña.png',
         precioAntes: 2.80,
         precioAhora: 2.00,
         stock: 5
@@ -90,7 +90,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Sandia',
-        img: '../recursos/frutas/sandia.png',
+        img: '../recursos/sandia.png',
         precioAntes: 4.00,
         precioAhora: 3.00,
         stock: 3
@@ -98,7 +98,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Plátano',
-        img: '../recursos/frutas/platano.png',
+        img: '../recursos/platano.png',
         precioAntes: 2.00,
         precioAhora: 0.90,
         stock: 7
@@ -106,7 +106,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Fresa',
-        img: '../recursos/frutas/fresa.png',
+        img: '../recursos/fresa.png',
         precioAntes: 0.80,
         precioAhora: 0.50,
         stock: 5
@@ -114,7 +114,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Naranja',
-        img: '../recursos/frutas/naranja.png',
+        img: '../recursos/naranja.png',
         precioAntes: 1.00,
         precioAhora: 0.85,
         stock: 10
@@ -122,7 +122,7 @@ export const data = [
     {
         tipo: 'fruta',
         nombre: 'Frambuesa',
-        img: '../recursos/frutas/frambuesa.png',
+        img: '../recursos/frambuesa.png',
         precioAntes: 0.70,
         precioAhora: 0.50,
         stock: 11
